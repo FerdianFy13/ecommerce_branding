@@ -1,0 +1,80 @@
+/* test */
+.site-blocks-2 .block-2-item {
+	display: block;
+	position: relative; }
+	.site-blocks-2 .block-2-item:before {
+	  z-index: 1;
+	  content: '';
+	  position: absolute;
+	  top: 0;
+	  right: 0;
+	  bottom: 0;
+	  left: 0;
+	  background: -moz-linear-gradient(top, transparent 0%, transparent 18%, rgba(0, 0, 0, 0.8) 99%, rgba(0, 0, 0, 0.8) 100%);
+	  background: -webkit-linear-gradient(top, transparent 0%, transparent 18%, rgba(0, 0, 0, 0.8) 99%, rgba(0, 0, 0, 0.8) 100%);
+	  background: -webkit-gradient(linear, left top, left bottom, from(transparent), color-stop(18%, transparent), color-stop(99%, rgba(0, 0, 0, 0.8)), to(rgba(0, 0, 0, 0.8)));
+	  background: -o-linear-gradient(top, transparent 0%, transparent 18%, rgba(0, 0, 0, 0.8) 99%, rgba(0, 0, 0, 0.8) 100%);
+	  background: linear-gradient(to bottom, transparent 0%, transparent 18%, rgba(0, 0, 0, 0.8) 99%, rgba(0, 0, 0, 0.8) 100%);
+	  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#cc000000',GradientType=0 ); }
+	.site-blocks-2 .block-2-item .image {
+	  position: relative;
+	  margin-bottom: 0;
+	  overflow: hidden; }
+	  .site-blocks-2 .block-2-item .image img {
+		margin-bottom: 0;
+		-webkit-transition: .3s all ease-in-out;
+		-o-transition: .3s all ease-in-out;
+		transition: .3s all ease-in-out; }
+	.site-blocks-2 .block-2-item .text {
+	  z-index: 2;
+	  bottom: 0;
+	  padding-left: 20px;
+	  position: absolute;
+	  width: 100%; }
+	  .site-blocks-2 .block-2-item .text > span, .site-blocks-2 .block-2-item .text h3 {
+		color: #fff; }
+	  .site-blocks-2 .block-2-item .text > span {
+		font-size: 12px;
+		letter-spacing: .1em;
+		font-weight: 900; }
+	  .site-blocks-2 .block-2-item .text h3 {
+		font-size: 40px; }
+	.site-blocks-2 .block-2-item:hover .image img {
+	  -webkit-transform: scale(1.1);
+	  -ms-transform: scale(1.1);
+	  transform: scale(1.1); }
+
+
+/* post */
+.post-area{
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-position:center;
+}
+
+/* card */
+.card.card-plain {
+    background: transparent;
+    box-shadow: none;
+}
+
+/* error page */
+
+.error-page {
+	min-height: 100vh;
+}
+
+.error-page .container .title {
+	font-size: 11em;
+}
+
+/*product page*/
+.review-rating {
+	margin-top: -3px;
+}
+
+/*cart page*/
+.cart-image {
+	height:40px; 
+	width:40px;
+}

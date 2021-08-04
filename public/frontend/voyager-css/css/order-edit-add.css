@@ -1,0 +1,18 @@
+.d-none{
+	display: none;
+}
+
+.iframe {
+	width:0;
+	height:0;
+	overflow:hidden;
+}
+
+.w-70 {
+	width: 70%;
+}
+
+.h-35 {
+	height: 35px;
+}
+	
